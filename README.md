@@ -13,7 +13,6 @@
   - [6. Predictions](#6-predictions)
 - [Visualization](#visualization)
 - [Results & Performance](#results--performance)
-- [Future Improvements](#future-improvements)
 - [How to Run the Project](#how-to-run-the-project)
 - [Conclusion](#conclusion)
 
