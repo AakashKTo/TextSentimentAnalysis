@@ -25,27 +25,6 @@ This project implements **sentiment analysis** on Twitter data using **ALBERT (A
 
 This project covers **data preprocessing, tokenization, model training, evaluation, and visualization** to build an optimized sentiment classification model.
 
----
-
-## **Installation & Dependencies**
-Ensure you have the following dependencies installed:
-
-```bash
-pip install -r requirements.txt
-```
-
-If you don't have `requirements.txt`, manually install:
-```bash
-pip install matplotlib seaborn emoji nltk wordcloud scikit-learn nlpaug tensorflow tf-keras transformers pandas
-```
-
-Additionally, download **NLTK resources**:
-```python
-import nltk
-nltk.download('wordnet')
-```
-
----
 
 ## **Dataset**
 The project uses:
@@ -117,23 +96,14 @@ y_pred = np.argmax(y_pred_probs, axis=1)
 ## **Visualization**
 - **Sentiment distribution** (Bar chart)
 - **Confusion Matrix** (Heatmap using Seaborn)
-- **Training Accuracy & Loss Over Epochs** (Line plots)
 
 ---
 
 ## **Results & Performance**
 - The model achieves high **accuracy and F1-score** on test data.
 - **Misclassifications** are analyzed using a confusion matrix.
-- The training history is visualized to **check for overfitting.**
-
 ---
 
-## **Future Improvements**
-- **Data Augmentation** using `nlpaug`
-- **Hyperparameter tuning** (batch size, dropout rate, learning rate)
-- **Deployment** using FastAPI/Flask for real-time predictions
-
----
 
 ## **How to Run the Project**
 1. Clone the repository:
