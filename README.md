@@ -1,4 +1,4 @@
-# **Twitter Sentiment Analysis Using ALBERT**
+# **Tweet Sentiment Analysis Using ALBERT**
 
 ## **Table of Contents**
 - [Project Overview](#project-overview)
