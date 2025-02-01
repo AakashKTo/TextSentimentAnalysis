@@ -138,7 +138,7 @@ y_pred = np.argmax(y_pred_probs, axis=1)
 ## **How to Run the Project**
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/twitter-sentiment-analysis.git
+git clone https://github.com/AakashKTo/twitter-sentiment-analysis.git
 cd twitter-sentiment-analysis
 ```
 2. Install dependencies:
